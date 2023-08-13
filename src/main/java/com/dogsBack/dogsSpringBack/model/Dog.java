@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity//se utiliza para marcar la clase ocmom una entidad en el contexto de JPA
 public class Dog {
     @Id
     @GeneratedValue
